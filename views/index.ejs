@@ -1,0 +1,29 @@
+<% include ./partials/header.ejs %>
+
+<!-- Page Content -->
+       <div id="page-content-wrapper page-1">
+           <div class="container-fluid bg-video">
+               <div class="row">
+                 <div class="homeContent">
+                   <div class="col-sm-9 col-sm-offset-3">
+                        <h1><%= title %></h1>
+                        <p>Welcome to <%= title %></p>
+                        <div class="homeDetails">
+                          <ul>
+                            <li><%= location %></li>
+                            <li><%= email %></li>
+                            <li><%= phone %></li>
+                          </ul>
+                          <button type="button" name="button">About</button>
+                          <button type="button" name="button">Portfolio</button>
+                        </div>
+                    </div>
+                 </div>
+               </div>
+           </div>
+       </div>
+
+
+
+
+<% include ./partials/footer.ejs %>
