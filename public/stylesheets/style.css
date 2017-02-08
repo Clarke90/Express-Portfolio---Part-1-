@@ -1,0 +1,154 @@
+
+/* globalStyles */
+body {
+    overflow-x: hidden;
+    /*background-image: url('/images/Mock-up.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;*/
+ }
+ body #page-1{
+   background-image: url('/images/Mock-up.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+/*navbar */
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 200px;
+    height: 100%;
+    margin-left: -150px;
+    overflow-y: auto;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 50px;
+    font-size: 20px;
+}
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+/*sidebar 2*/
+#sidebar-wrapper-2 {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 100px;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: lightgrey;
+    padding: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.sidebar-nav-2 {
+    position: absolute;
+    top: 0;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: lightgrey;
+}
+.sidebar-nav-2 li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+.sidebar-nav-2 li:nth-of-type(1) {
+    background: #07a2e2;
+}
+.sidebar-nav-2 li i{
+  width: 100px;
+  height: 100px;
+  font-size: 30px;
+  line-height: 100px;
+}
+.sidebar-nav-2 li:nth-of-type(1) i{
+color: white;
+}
+/*index*/
+.homeDetails {
+    margin-top: 70%;
+}
+.homeDetails ul {
+    padding: 0;
+    margin-bottom: 25px;
+}
+.homeDetails li{
+  font-size: 25px;
+  list-style-type: none;
+  color: white;
+}
+.homeDetails button {
+    border: 3px solid white;
+    background: transparent;
+    color: white;
+}
+/*about*/
+.banner{
+  height: 200px;
+  background-color: red;
+
+}
+/*footer*/
+footer{
+      background-color: #222;
+}
+bar-fixed-bottom {
+    padding: 10px 0 10px 0;
+    z-index: -2;
+}
+.container-fluid.bg-video {
+    position: fixed;
+    left: 250px;
+    width: 450px;
+    height: 100%;
+    overflow-y: auto;
+    background: rgba(0,0,0,0.60);
+}
